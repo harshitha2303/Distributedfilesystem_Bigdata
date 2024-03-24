@@ -1,0 +1,22 @@
+{
+    "block_size": 2,
+    "block_size_unit": 1e3,
+    "path_to_datanodes": "/home/pes2ug21cs913/DATANODE",
+    "path_to_namenodes": "/home/pes2ug21cs913/NAMENODE/",
+    "replication_factor": 3,
+    "num_datanodes": 5,
+    "datanode_size": 100,
+    "sync_period": 60,
+    "datanode_log_path": "/home/pes2ug21cs913/DATANODE/DATANODE_LOGS/",
+    "namenode_log_path": "/home/pes2ug21cs913/NAMENODE/NAMENODE_LOG.txt",
+    "config_log_path": "CONFIG.txt",
+    "namenode_checkpoints_path": "/home/pes2ug21cs913/NAMENODE/CHECKPOINTS/",
+    "fs_path": "/home/pes2ug21cs913/DFS/FILE_SYSTEM/",
+    "dfs_setup_config": "../config/dfs_setup.json",
+    "primary_namenode_name": "PRIMARY_NAMENODE",
+    "secondary_namenode_name": "SECONDARY_NAMENODE",
+    "file_info_filename": "FILE_INFO.json",
+    "block_info_filename": "BLOCK_INFO.json",
+    "datanode_info_filename": "DATANODE_INFO.json",
+    "filesystem_info_filename": "FILESYSTEM_INFO.json"
+}
